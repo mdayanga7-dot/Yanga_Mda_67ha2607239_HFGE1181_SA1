@@ -1,0 +1,297 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.63f1-b423dd65e13f' branch; Version is '6000.0.63f1 (9438f9b77a46) revision 9713913'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdaya" at "2026-07-14T20:13:39.9837294Z"
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-07-14T20:13:39Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.63f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51876
+-licensingIpc
+LicenseClient-mdaya
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [59204]  Target information:
+
+Player connection [59204]  * "[IP] 192.168.0.234 [Port] 0 [Flags] 2 [Guid] 1294175882 [EditorId] 1294175882 [Version] 1048832 [Id] WindowsEditor(7,MdaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [59204] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [59204] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 40.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.63f1 (9438f9b77a46)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.63f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.63f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016582 seconds.
+- Loaded All Assemblies, in  1.408 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.153 seconds
+Domain Reload Profiling: 2547ms
+	BeginReloadAssembly (560ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (200ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (518ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (475ms)
+				TypeCache.ScanAssembly (431ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1154ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1004ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              ac7561f4572a42bda4bfec99058be0c6
+  Correlation Id:          6d7a00d2b5aa7a61d37af6ae8eaed623
+  External correlation Id: 1874263437071414379
+  Machine Id:              /4uIyTt7QBY3mmup5iDpEOi0wx8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdaya" (connect: 0.00s, validation: 0.01s, handshake: 6.73s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdaya-notifications" at "2026-07-14T20:13:46.7317964Z"
+[Licensing::Module] Licensing Background thread has ended after 6.75s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270653248333-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.678 seconds
+Refreshing native plugins compatible for Editor in 9.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.822 seconds
+Domain Reload Profiling: 6431ms
+	BeginReloadAssembly (413ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (1951ms)
+		LoadAssemblies (1547ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (633ms)
+			TypeCache.Refresh (432ms)
+				TypeCache.ScanAssembly (403ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1997ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (672ms)
+			ProcessInitializeOnLoadAttributes (1000ms)
+			ProcessInitializeOnLoadMethodAttributes (294ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6749 unused Assets / (6.1 MB). Loaded Objects now: 7420.
+Memory consumption went from 144.4 MB to 138.3 MB.
+Total: 23.163400 ms (FindLiveObjects: 1.646400 ms CreateObjectMapping: 1.992700 ms MarkObjects: 11.577500 ms  DeleteObjects: 7.945000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 683375.826125 seconds.
+  path: Assets/Dungen.prefab
+  artifactKey: Guid(e3b146f098f22da498a202e47fb09ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungen.prefab using Guid(e3b146f098f22da498a202e47fb09ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9101056fbbd002cd225913aa104c351a') in 1.9011275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 691
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.137713 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/PlayerController.cs
+  artifactKey: Guid(58dc630db62eeec43b3aed29833b2828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/PlayerController.cs using Guid(58dc630db62eeec43b3aed29833b2828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79d7ab8b7838a57bdbacb0ca4b7af509') in 0.0012168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 353.543588 seconds.
+  path: Assets/Weapon Data
+  artifactKey: Guid(8509afc3805e7f946870e7ce2c5121c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon Data using Guid(8509afc3805e7f946870e7ce2c5121c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6b9bfbe3b1361466e8e6c640b332936') in 0.0018977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.226010 seconds.
+  path: Assets/Weapon Data/Pistol
+  artifactKey: Guid(69ee58f09c544fe49838bfe5459ff44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon Data/Pistol using Guid(69ee58f09c544fe49838bfe5459ff44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb16da3805f4528e719faf1209dd41b7') in 0.0011378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.230269 seconds.
+  path: Assets/Weapon Data/Shotgun
+  artifactKey: Guid(014c3ddda2c8a2c489be64ad044ede56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon Data/Shotgun using Guid(014c3ddda2c8a2c489be64ad044ede56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf3d9305ff998a2f3e8123027a0ac29c') in 0.0012216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.999980 seconds.
+  path: Assets/Weapon Data/SniperRifle
+  artifactKey: Guid(687f87401f825a743a3cb5c521399298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon Data/SniperRifle using Guid(687f87401f825a743a3cb5c521399298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca32dce3fd2e4eb649d7f4bbca9d10fa') in 0.0012314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.389455 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/Bullet.cs
+  artifactKey: Guid(b3fe4b071fca95a4f90a57b84e1aab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/Bullet.cs using Guid(b3fe4b071fca95a4f90a57b84e1aab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cab129219dfe349dfb9831dc9ebd5d95') in 0.0015691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.108865 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/WeaponPickup.cs
+  artifactKey: Guid(636aded89864d6c47ade974911ff987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/WeaponPickup.cs using Guid(636aded89864d6c47ade974911ff987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c45f915020aab16319b4a1b2df4838') in 0.0014223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 736.641077 seconds.
+  path: Assets/bullet.prefab
+  artifactKey: Guid(9c4f8d82f409b5647898cfbd6d0afd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bullet.prefab using Guid(9c4f8d82f409b5647898cfbd6d0afd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c237e077db305cd38e39f62157a9c7c') in 0.105605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.244664 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/EnemySpawnFactory.cs
+  artifactKey: Guid(3c1a7802d6df0cc458b26db6d3fce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/EnemySpawnFactory.cs using Guid(3c1a7802d6df0cc458b26db6d3fce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6efa9f6750958c2dfaacf5aedb93990') in 0.001627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.285252 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/CameraFollow.cs
+  artifactKey: Guid(0d9507481632f914eb3f29648d70dd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/CameraFollow.cs using Guid(0d9507481632f914eb3f29648d70dd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04adca54f36ac4714f8a4e0dac023b02') in 0.0032974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

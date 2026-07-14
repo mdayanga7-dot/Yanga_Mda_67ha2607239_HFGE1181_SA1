@@ -1,0 +1,572 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.63f1-b423dd65e13f' branch; Version is '6000.0.63f1 (9438f9b77a46) revision 9713913'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-07-08T13:03:02Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdaya" at "2026-07-08T13:03:02.6909333Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.63f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52441
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37176]  Target information:
+
+Player connection [37176]  * "[IP] 192.168.0.234 [Port] 0 [Flags] 2 [Guid] 189600189 [EditorId] 189600189 [Version] 1048832 [Id] WindowsEditor(7,MdaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 18.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.63f1 (9438f9b77a46)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.63f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.63f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019154 seconds.
+- Loaded All Assemblies, in  2.066 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.228 seconds
+Domain Reload Profiling: 3273ms
+	BeginReloadAssembly (1020ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (224ms)
+	LoadAllAssembliesAndSetupDomain (634ms)
+		LoadAssemblies (939ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (625ms)
+			TypeCache.Refresh (621ms)
+				TypeCache.ScanAssembly (578ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1229ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1076ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (275ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              10609922bc634d69b9d6bf7074e40b49
+  Correlation Id:          6d7a00d2b5aa7a61d37af6ae8eaed623
+  External correlation Id: 7424046083207411342
+  Machine Id:              /4uIyTt7QBY3mmup5iDpEOi0wx8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdaya" (connect: 0.04s, validation: 0.01s, handshake: 9.43s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdaya-notifications" at "2026-07-08T13:03:12.1584092Z"
+[Licensing::Module] Licensing Background thread has ended after 9.47s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270653248333-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.918 seconds
+Refreshing native plugins compatible for Editor in 851.80 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.567 seconds
+Domain Reload Profiling: 5455ms
+	BeginReloadAssembly (501ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (2144ms)
+		LoadAssemblies (1497ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (915ms)
+			TypeCache.Refresh (667ms)
+				TypeCache.ScanAssembly (625ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (2568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (572ms)
+			ProcessInitializeOnLoadAttributes (1177ms)
+			ProcessInitializeOnLoadMethodAttributes (322ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (6.8 MB). Loaded Objects now: 7398.
+Memory consumption went from 146.2 MB to 139.4 MB.
+Total: 26.606200 ms (FindLiveObjects: 2.474600 ms CreateObjectMapping: 2.310000 ms MarkObjects: 12.316100 ms  DeleteObjects: 9.501200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 138833.938737 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '848e9b86361ff5d0f27deffee3873d7c') in 0.1279592 seconds
+Number of updated asset objects reloaded before import = 3Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.745 seconds
+Refreshing native plugins compatible for Editor in 13.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.065 seconds
+Domain Reload Profiling: 6787ms
+	BeginReloadAssembly (634ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (1736ms)
+		LoadAssemblies (1211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (824ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (753ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (4066ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2021ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (544ms)
+			ProcessInitializeOnLoadAttributes (1229ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 8.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (6.9 MB). Loaded Objects now: 7405.
+Memory consumption went from 147.8 MB to 140.8 MB.
+Total: 29.600900 ms (FindLiveObjects: 2.082300 ms CreateObjectMapping: 3.131500 ms MarkObjects: 12.780300 ms  DeleteObjects: 11.604000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6737 unused Assets / (7.0 MB). Loaded Objects now: 7427.
+Memory consumption went from 148.0 MB to 140.9 MB.
+Total: 18.215500 ms (FindLiveObjects: 1.073600 ms CreateObjectMapping: 1.573300 ms MarkObjects: 8.684800 ms  DeleteObjects: 6.882100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 735.194547 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_8_bit_blip_error_buzz_112016.mp3
+  artifactKey: Guid(e821cb2656ea7ed4eaed1542f89d66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_8_bit_blip_error_buzz_112016.mp3 using Guid(e821cb2656ea7ed4eaed1542f89d66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a9cc659243c9799800e71dabc2e09e') in 0.2712466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_retro_8bit_punch_113277.mp3
+  artifactKey: Guid(68181f6bd8960a3428913eaec7a6c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_retro_8bit_punch_113277.mp3 using Guid(68181f6bd8960a3428913eaec7a6c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '136676a8b34d67c853b482a153a43db0') in 0.0184766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_8_bit_blip_hurt_hit_112026.mp3
+  artifactKey: Guid(9243d1ae3c323fb4eb3f3bbd4a39a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_8_bit_blip_hurt_hit_112026.mp3 using Guid(9243d1ae3c323fb4eb3f3bbd4a39a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0188df346e0d5bd8c4dfc20a79f0d82') in 0.0096088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.905 seconds
+Refreshing native plugins compatible for Editor in 6.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.676 seconds
+Domain Reload Profiling: 3571ms
+	BeginReloadAssembly (513ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (61ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (130ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1243ms)
+		LoadAssemblies (1045ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (327ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (457ms)
+			ProcessInitializeOnLoadAttributes (751ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6747 unused Assets / (7.1 MB). Loaded Objects now: 7439.
+Memory consumption went from 152.8 MB to 145.7 MB.
+Total: 18.510900 ms (FindLiveObjects: 1.630500 ms CreateObjectMapping: 2.084100 ms MarkObjects: 7.525600 ms  DeleteObjects: 7.268600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.529900 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts
+  artifactKey: Guid(44335cd258935634cb6bb1f768fb75fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts using Guid(44335cd258935634cb6bb1f768fb75fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6eedbfaaf0e5e26dc580f0b69857b9') in 0.0129451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/InputSystem_Actions.inputactions
+  artifactKey: Guid(f2c26105523d31743a4df71e34174c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Scripts/InputSystem_Actions.inputactions using Guid(f2c26105523d31743a4df71e34174c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a75fd37e6cbe52a93211ef028dab3be9') in 0.0496122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.992738 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0003.png
+  artifactKey: Guid(00f8dbf8b45869740a49f9c58a7fe6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0003.png using Guid(00f8dbf8b45869740a49f9c58a7fe6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53fdfc9ba86971413db5c5d8a9ec7d9e') in 0.0711273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0018.png
+  artifactKey: Guid(e74a315f5d474b44ab8d2ebb7547cfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0018.png using Guid(e74a315f5d474b44ab8d2ebb7547cfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be10893077a74e701fff04fe01d8999b') in 0.014021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0009.png
+  artifactKey: Guid(01866af69eb36e14c917f04ff1437aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0009.png using Guid(01866af69eb36e14c917f04ff1437aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f098aa942152d3fc2f829e3238012d') in 0.0169372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0014.png
+  artifactKey: Guid(a611749308d018543bcf76f34dc1663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0014.png using Guid(a611749308d018543bcf76f34dc1663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fbc3e246b104f5cd8f45c13b459ff8e') in 0.0149159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0016.png
+  artifactKey: Guid(c177068b3b942514aab9ee7ae7a32785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0016.png using Guid(c177068b3b942514aab9ee7ae7a32785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a586a10a318b80e22deb4b0a00b0e112') in 0.0162407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0008.png
+  artifactKey: Guid(1c4bd309685320144bf90a6d4e5edf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0008.png using Guid(1c4bd309685320144bf90a6d4e5edf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b2d11437f8c4bdf451715280a07d0d') in 0.0200973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0017.png
+  artifactKey: Guid(f9e91b1f58203974087b620e31f96697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0017.png using Guid(f9e91b1f58203974087b620e31f96697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe0528bb1978dcb392cb635ca700597f') in 0.0178819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.386384 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0024.png
+  artifactKey: Guid(342b8aaf01dcbfe48b31686b0bbdf425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0024.png using Guid(342b8aaf01dcbfe48b31686b0bbdf425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8336730e390f1b1e48f14f77517e0cc1') in 0.0163883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0002.png
+  artifactKey: Guid(ccc9c62df9cd14e458bdaf4760bcbe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0002.png using Guid(ccc9c62df9cd14e458bdaf4760bcbe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b61b5e347da25ff3fe09023fee61123') in 0.0183771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0009.png
+  artifactKey: Guid(8aacc87f652d2304ea1fefacdd33d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0009.png using Guid(8aacc87f652d2304ea1fefacdd33d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '133ba89a20b16ee99428d7a522cc6b4d') in 0.0134558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0003.png
+  artifactKey: Guid(e57a0341209943e4c9bdb620a37d3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0003.png using Guid(e57a0341209943e4c9bdb620a37d3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0019c6928fedf00fd15a8bcb54f81e4c') in 0.0153404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0007.png
+  artifactKey: Guid(b638b40e8a4c2c349990673964a5dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0007.png using Guid(b638b40e8a4c2c349990673964a5dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c4fefc545235df9c0f50d6c3ce11bc') in 0.01894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131706 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0005.png
+  artifactKey: Guid(8ff9c6a30150c2f42a43fa3f1b55e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0005.png using Guid(8ff9c6a30150c2f42a43fa3f1b55e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67c0daaba976382333a59219e555c85d') in 0.0161424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0006.png
+  artifactKey: Guid(d5fe040fba0f11a4aa21cfcba3c92058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0006.png using Guid(d5fe040fba0f11a4aa21cfcba3c92058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66a5b9593abc778b315d5dd53f8a7147') in 0.0153482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.618242 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Pickups/Sniper.png
+  artifactKey: Guid(2061a360edc904240938e06c402ff2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Pickups/Sniper.png using Guid(2061a360edc904240938e06c402ff2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d963fd59f5533b6bc802d2a6fbd6947') in 0.0535919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.432677 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_03.png
+  artifactKey: Guid(94498bc4bd645be4cba21ffbd373307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_03.png using Guid(94498bc4bd645be4cba21ffbd373307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b95b9608092b3702192a94914dc973') in 0.0192022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolSprint_04.png
+  artifactKey: Guid(849c972906812874bb803cbe0786da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolSprint_04.png using Guid(849c972906812874bb803cbe0786da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0557916f852a20b58032f151e9a8a55') in 0.0191017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolIdle_01.png
+  artifactKey: Guid(74070bad03e46234a80c1721697677c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolIdle_01.png using Guid(74070bad03e46234a80c1721697677c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea4b013f11dafa4e2a54dbf16f3b8742') in 0.0290686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_05.png
+  artifactKey: Guid(31c76e2dad20d924a94c67776846b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_05.png using Guid(31c76e2dad20d924a94c67776846b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ce4f0b263db6b5b3f0a001a9253a145') in 0.024079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolSprint_03.png
+  artifactKey: Guid(bd10fc381912b5140aa020132987bfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolSprint_03.png using Guid(bd10fc381912b5140aa020132987bfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '870beb3c54283296feb27b14e6155677') in 0.0198968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_06.png
+  artifactKey: Guid(43bac2a666b111546a307704e1d8c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_06.png using Guid(43bac2a666b111546a307704e1d8c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fdcf2df3d42947950a18b9564485ba3') in 0.0186203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolShoot_03.png
+  artifactKey: Guid(babe3b5cdb684e54190fce441ed16bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolShoot_03.png using Guid(babe3b5cdb684e54190fce441ed16bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74841333187217d0ac6aff37ba40b44') in 0.0189751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.497676 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile03.png
+  artifactKey: Guid(e0d0e630dcf1d0a4590791f586963586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile03.png using Guid(e0d0e630dcf1d0a4590791f586963586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c479e6f274b8a194ea3163ea43053be9') in 0.0278727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile05.png
+  artifactKey: Guid(d867bc93c12df6e4b947ee947725c4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile05.png using Guid(d867bc93c12df6e4b947ee947725c4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e968f7ff4b468751a272670135093c1') in 0.0245591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile04.png
+  artifactKey: Guid(e0878de97d4d7ef45aede43ed1775e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile04.png using Guid(e0878de97d4d7ef45aede43ed1775e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '549013539e87c879588037b02b4d1a21') in 0.0166106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

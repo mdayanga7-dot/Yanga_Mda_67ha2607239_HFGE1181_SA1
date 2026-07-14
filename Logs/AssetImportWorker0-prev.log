@@ -1,0 +1,752 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdaya" at "2026-07-08T13:03:02.8616644Z"
+Built from '6000.0/respin/6000.0.63f1-b423dd65e13f' branch; Version is '6000.0.63f1 (9438f9b77a46) revision 9713913'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-07-08T13:03:02Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.63f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52441
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3820]  Target information:
+
+Player connection [3820]  * "[IP] 192.168.0.234 [Port] 0 [Flags] 2 [Guid] 1185368993 [EditorId] 1185368993 [Version] 1048832 [Id] WindowsEditor(7,MdaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3820] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 25.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.63f1 (9438f9b77a46)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.63f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mdaya/OneDrive/Desktop/Unity Projects/HFGE1181 SUPP SA1 Project/My project (1)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.63f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.63f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012561 seconds.
+- Loaded All Assemblies, in  2.138 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.224 seconds
+Domain Reload Profiling: 3350ms
+	BeginReloadAssembly (1061ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (237ms)
+	LoadAllAssembliesAndSetupDomain (671ms)
+		LoadAssemblies (939ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (663ms)
+			TypeCache.Refresh (658ms)
+				TypeCache.ScanAssembly (616ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1080ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (288ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              45a77bb4ca044cb48a00429350420e08
+  Correlation Id:          6d7a00d2b5aa7a61d37af6ae8eaed623
+  External correlation Id: 7654001386479063198
+  Machine Id:              /4uIyTt7QBY3mmup5iDpEOi0wx8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdaya" (connect: 0.00s, validation: 0.01s, handshake: 9.29s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdaya-notifications" at "2026-07-08T13:03:12.1643238Z"
+[Licensing::Module] Licensing Background thread has ended after 9.31s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270653248333-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.963 seconds
+Refreshing native plugins compatible for Editor in 796.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.558 seconds
+Domain Reload Profiling: 5493ms
+	BeginReloadAssembly (510ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (2179ms)
+		LoadAssemblies (1505ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (950ms)
+			TypeCache.Refresh (707ms)
+				TypeCache.ScanAssembly (670ms)
+			BuildScriptInfoCaches (195ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (557ms)
+			ProcessInitializeOnLoadAttributes (1168ms)
+			ProcessInitializeOnLoadMethodAttributes (346ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6727 unused Assets / (6.6 MB). Loaded Objects now: 7398.
+Memory consumption went from 148.1 MB to 141.5 MB.
+Total: 28.780500 ms (FindLiveObjects: 1.833400 ms CreateObjectMapping: 2.436800 ms MarkObjects: 13.671800 ms  DeleteObjects: 10.836500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 138833.938100 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3ee85287093c2e01e2184a29fd3edf') in 0.0915976 seconds
+Number of updated asset objects reloaded before import = 3Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.767 seconds
+Refreshing native plugins compatible for Editor in 8.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.177 seconds
+Domain Reload Profiling: 6922ms
+	BeginReloadAssembly (669ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (151ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (1720ms)
+		LoadAssemblies (1272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (775ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (707ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (4178ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2035ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (561ms)
+			ProcessInitializeOnLoadAttributes (1249ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 8.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6725 unused Assets / (6.1 MB). Loaded Objects now: 7405.
+Memory consumption went from 149.6 MB to 143.6 MB.
+Total: 27.812100 ms (FindLiveObjects: 1.898200 ms CreateObjectMapping: 2.409400 ms MarkObjects: 13.854100 ms  DeleteObjects: 9.644900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.124571 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f721d531e32c17f023f183bf845204fd') in 0.073051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6737 unused Assets / (6.6 MB). Loaded Objects now: 7427.
+Memory consumption went from 149.9 MB to 143.3 MB.
+Total: 18.118100 ms (FindLiveObjects: 1.177200 ms CreateObjectMapping: 1.513300 ms MarkObjects: 9.583300 ms  DeleteObjects: 5.842200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 716.781992 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main
+  artifactKey: Guid(cd61709af72ac494fbebf8981ee9a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main using Guid(cd61709af72ac494fbebf8981ee9a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55f322a06cd6d74ec850796f3a71774c') in 0.0072834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.614712 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX
+  artifactKey: Guid(29044b60a86030e478de46054d11ab2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX using Guid(29044b60a86030e478de46054d11ab2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3aef0f5ea10c0765c27e2276ab164ea') in 0.0010201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080133 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/music_zapsplat_game_music_action_mild_agressive_bass_synth_breakbeat_027.mp3
+  artifactKey: Guid(5bbcd03f87462c249abdcb336045fa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/music_zapsplat_game_music_action_mild_agressive_bass_synth_breakbeat_027.mp3 using Guid(5bbcd03f87462c249abdcb336045fa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55ef0e03433c7de6d52c9408af1fc2b9') in 0.1860646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_8_bit_blip_zap_112056.mp3
+  artifactKey: Guid(0137332bfedab2a47b1a171f64160535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_8_bit_blip_zap_112056.mp3 using Guid(0137332bfedab2a47b1a171f64160535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dcbb620b3f5928a9a937e2bd97ec64c') in 0.0116156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_retro_8bit_fighter_jet_fly_by_113275.mp3
+  artifactKey: Guid(dd05fa45bb042dc4ba92d5bc08794d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Music & SFX/zapsplat_multimedia_game_sound_retro_8bit_fighter_jet_fly_by_113275.mp3 using Guid(dd05fa45bb042dc4ba92d5bc08794d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '622f23350f4aa260e8e808b127b3961e') in 0.0209165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.949 seconds
+Refreshing native plugins compatible for Editor in 6.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.662 seconds
+Domain Reload Profiling: 3596ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (52ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1261ms)
+		LoadAssemblies (1100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (310ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1663ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (469ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 6.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6747 unused Assets / (6.6 MB). Loaded Objects now: 7439.
+Memory consumption went from 154.7 MB to 148.1 MB.
+Total: 16.930300 ms (FindLiveObjects: 1.478900 ms CreateObjectMapping: 1.633100 ms MarkObjects: 7.112400 ms  DeleteObjects: 6.703300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.963145 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0002.png
+  artifactKey: Guid(82a98544ed900b149857b0a61cd61abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0002.png using Guid(82a98544ed900b149857b0a61cd61abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91511beb8d3259d5fc4053550641c0ca') in 0.1085591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0006.png
+  artifactKey: Guid(a8b3fa305de68e244a3d111f1d2f5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0006.png using Guid(a8b3fa305de68e244a3d111f1d2f5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9df6271a0cb7422af8d90f32a0f0858') in 0.0167049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0005.png
+  artifactKey: Guid(50d9a60ac73a188449d6a6f6c4d8c8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0005.png using Guid(50d9a60ac73a188449d6a6f6c4d8c8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '948b307cb43b7c3ee753a8e2263a2d2b') in 0.0154352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0010.png
+  artifactKey: Guid(1e8b1b55b33a4ae4caf4d2df54e31de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0010.png using Guid(1e8b1b55b33a4ae4caf4d2df54e31de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cc6b7b694b27c10a28951110c2f8274') in 0.0196051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0012.png
+  artifactKey: Guid(785dd0d8d0124444ba81b586911a02e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0012.png using Guid(785dd0d8d0124444ba81b586911a02e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30ef0ead1a125cd67befcc14e4acd13') in 0.0168891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0020.png
+  artifactKey: Guid(e6eee675dc5fc834791cfe0878b19771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0020.png using Guid(e6eee675dc5fc834791cfe0878b19771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '174a342a3644598917d5af11d5d7191d') in 0.0149243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0004.png
+  artifactKey: Guid(37bf6da9ba5102d4ca6a9d8a1903a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0004.png using Guid(37bf6da9ba5102d4ca6a9d8a1903a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b4e0e61d71d791ddec968fd178b014') in 0.0130075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.336545 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0023.png
+  artifactKey: Guid(b27560653b8a6bc4a9993dc02b2387fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien0023.png using Guid(b27560653b8a6bc4a9993dc02b2387fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3607aa386e11db68211f813b833572d') in 0.0159112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0001.png
+  artifactKey: Guid(a6abbfbc2722b3b4ea0c346807a11026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0001.png using Guid(a6abbfbc2722b3b4ea0c346807a11026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931e73750d1c012cf2fc0f665894dca3') in 0.016865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0001.png
+  artifactKey: Guid(69360176c7ba6e1499f6ed259b7eeb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0001.png using Guid(69360176c7ba6e1499f6ed259b7eeb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c778b87c8ee346183e3ad852fcf9bd4') in 0.0165324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0006.png
+  artifactKey: Guid(80d827649a6d3a04091681527388f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Projectile0006.png using Guid(80d827649a6d3a04091681527388f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45a766d73a581e86e7e5fa136c8d0bfe') in 0.0148181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0002.png
+  artifactKey: Guid(e5c98f8927aed974085ed49063b101da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0002.png using Guid(e5c98f8927aed974085ed49063b101da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c2d201270f01364f5e2f066a759a02') in 0.0152217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128962 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0004.png
+  artifactKey: Guid(f305406240aaade4f854aab5e0e5cfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Alien/Alien_Ship0004.png using Guid(f305406240aaade4f854aab5e0e5cfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be2b3aaafbed2dde280a3b8b939839b3') in 0.018335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.700990 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Pickups/Shotgun.png
+  artifactKey: Guid(a39d691818c161b4f8dfdd665740949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Pickups/Shotgun.png using Guid(a39d691818c161b4f8dfdd665740949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7733e4b43289fae35bc5337519498f9') in 0.0222783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.439321 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_02.png
+  artifactKey: Guid(f54c5e560f1aa594081db7b22d17270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_02.png using Guid(f54c5e560f1aa594081db7b22d17270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d5790c0472fdbf8ee5ad9da80c7e672') in 0.019001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolDash_03.png
+  artifactKey: Guid(48d82ef229cfb8e4f8c054c6f2356316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolDash_03.png using Guid(48d82ef229cfb8e4f8c054c6f2356316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad5cd80602f1d32936cef973e58d03a9') in 0.0179211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_09.png
+  artifactKey: Guid(72498788434f42b4b8884a8dc08a0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_09.png using Guid(72498788434f42b4b8884a8dc08a0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c3dca7f64eede764554d5def065f3f') in 0.0288101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_04.png
+  artifactKey: Guid(f7b3554cd5043c344a2e6020da6e1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_04.png using Guid(f7b3554cd5043c344a2e6020da6e1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d30da3f275766dec43d2a31db8a20c') in 0.0221818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolDash_04.png
+  artifactKey: Guid(f0065e186aa351845a78ad312ea438fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolDash_04.png using Guid(f0065e186aa351845a78ad312ea438fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1ff6cb4dc7cf440a6938400e5b1df40') in 0.0195928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_08.png
+  artifactKey: Guid(8d89ad1e893ca114f98bd68503ac5d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_08.png using Guid(8d89ad1e893ca114f98bd68503ac5d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1629200977811a980f2ef59692d07013') in 0.0189589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolDash_01.png
+  artifactKey: Guid(b5af0793ddf03cb4b87bed70a8ee0fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_PistolDash_01.png using Guid(b5af0793ddf03cb4b87bed70a8ee0fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c743b3bc5baf72ca5919ff49ca98028') in 0.016695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.495213 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile02.png
+  artifactKey: Guid(51a9b20cddc772c41a5a70c22cb96230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile02.png using Guid(51a9b20cddc772c41a5a70c22cb96230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7def88f6fc7aae88d6722c0ca3bf75b') in 0.0172367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile07.png
+  artifactKey: Guid(1827de9ab2be1fe47b0f534aa9570f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile07.png using Guid(1827de9ab2be1fe47b0f534aa9570f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77d66e5c153c2adac553230b91bb075d') in 0.0188563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile09.png
+  artifactKey: Guid(8aab7da3fddd65943a8014de4b69db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile/Projectile09.png using Guid(8aab7da3fddd65943a8014de4b69db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0db9846aa3af4f9002503ba1a454c2bc') in 0.017253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile
+  artifactKey: Guid(9c8000bfe4f51824698da904c3e94dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Projectile using Guid(9c8000bfe4f51824698da904c3e94dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2ef86df5ff8028be625892dfb4c41e0') in 0.000883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.583044 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Tilemap & Props/Tilemaps_2026SemA.png
+  artifactKey: Guid(e8fc2da1d3ea78e4798ef15b925df333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Tilemap & Props/Tilemaps_2026SemA.png using Guid(e8fc2da1d3ea78e4798ef15b925df333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5191864c8fa53beeab26aad7611d0008') in 0.0631648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 29913.543534 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '403a0a9c0aeae1e5730532c1b4a28511') in 0.2711729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 482.382582 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunDash_02.png
+  artifactKey: Guid(99db41d7df2523742b51417c86c19a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunDash_02.png using Guid(99db41d7df2523742b51417c86c19a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90c5acc1d27dc2a30e3b4a0eaaa13255') in 0.7560758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunSprint_04.png
+  artifactKey: Guid(dec4cec4412049a4682ca1d8d5d36a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunSprint_04.png using Guid(dec4cec4412049a4682ca1d8d5d36a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4be8f6d7b343cea87c6a8bf1704d0c34') in 0.1063375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunDash_04.png
+  artifactKey: Guid(406e891c1ae9c9f42b21e3e3c338e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunDash_04.png using Guid(406e891c1ae9c9f42b21e3e3c338e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '258dff1257b6d6997814950b79033d7d') in 0.0793974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperIdle_01.png
+  artifactKey: Guid(9852adaf00ed90249940b92a9fa214f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperIdle_01.png using Guid(9852adaf00ed90249940b92a9fa214f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b215215f8f3f041afad52b18c6feb426') in 0.0918593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperDash_04.png
+  artifactKey: Guid(111138fecbbb16a47b7360bdb68e6417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperDash_04.png using Guid(111138fecbbb16a47b7360bdb68e6417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cca774937729b7359140309a1e85b0b') in 0.1195726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperSprint_01.png
+  artifactKey: Guid(330eb5f977301e14fa85da7d367769d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperSprint_01.png using Guid(330eb5f977301e14fa85da7d367769d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d8f593f55aaf2081cbfeee2c3cbaac9') in 0.0822044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperSprint_03.png
+  artifactKey: Guid(1e6ca5dc7b1c7eb4392b8eee8e5baf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperSprint_03.png using Guid(1e6ca5dc7b1c7eb4392b8eee8e5baf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fec6f1a994359cf2dbd7351a34581e91') in 0.0598273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunDash_03.png
+  artifactKey: Guid(6d0642eed52ddfc41a071904f7740936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_ShotgunDash_03.png using Guid(6d0642eed52ddfc41a071904f7740936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14bc69a6aaf5fb81871fb8b382cf857f') in 0.0516151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperShoot_03.png
+  artifactKey: Guid(34e0a857259554d4e938e95df5f4accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperShoot_03.png using Guid(34e0a857259554d4e938e95df5f4accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44ce641febc011310b706cce8290831a') in 0.0829421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperSprint_02.png
+  artifactKey: Guid(b6ace47da5de0804d914bf32a0a0b216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperSprint_02.png using Guid(b6ace47da5de0804d914bf32a0a0b216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfcf2555e0b1d435d65ba2d6d0fd6c83') in 0.0493315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperDash_01.png
+  artifactKey: Guid(88b0e1421ad92b64c8491d31d67ec526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_SniperDash_01.png using Guid(88b0e1421ad92b64c8491d31d67ec526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2a81a942eb7726e9558f9242216c514') in 0.0608092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.799135 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_02.png
+  artifactKey: Guid(f54c5e560f1aa594081db7b22d17270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_02.png using Guid(f54c5e560f1aa594081db7b22d17270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e957bf6c2855f21fd6ecca8902ec55b') in 0.0470829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.904789 seconds.
+  path: Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_02.png
+  artifactKey: Guid(f54c5e560f1aa594081db7b22d17270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HFGE1181-Top-Down-SA-2026-SemA--main/Visuals/Player/TopDown_Death_02.png using Guid(f54c5e560f1aa594081db7b22d17270d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f9223ea366cce7d4152644604159b5d') in 0.0205807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.298185 seconds.
+  path: Assets/Tile set
+  artifactKey: Guid(032c8390323bfbf41a412b4160e81175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile set using Guid(032c8390323bfbf41a412b4160e81175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da6932ae8b6830adae0527511831b39') in 0.0019336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.452417 seconds.
+  path: Assets/Tile set/Rectangular Palette.prefab
+  artifactKey: Guid(4b69ffc5f5646ad48ab5b601aea5b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile set/Rectangular Palette.prefab using Guid(4b69ffc5f5646ad48ab5b601aea5b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f2a2d2b78b585d630eb5fa6d18ee5d2') in 3.578472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.666405 seconds.
+  path: Assets/Tile set/My block out palette.prefab
+  artifactKey: Guid(4b69ffc5f5646ad48ab5b601aea5b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile set/My block out palette.prefab using Guid(4b69ffc5f5646ad48ab5b601aea5b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '179fd4eb6bc57a354d94b059700c3550') in 0.0176057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.551117 seconds.
+  path: Assets/Tile set/Square.png
+  artifactKey: Guid(75e640f9dc3b6454d91b8e6c43fb8855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile set/Square.png using Guid(75e640f9dc3b6454d91b8e6c43fb8855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '544eb1dbf8bbffa4b7cb1d7a3709195d') in 0.0571678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.308426 seconds.
+  path: Assets/Tile set/Path.png
+  artifactKey: Guid(75e640f9dc3b6454d91b8e6c43fb8855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile set/Path.png using Guid(75e640f9dc3b6454d91b8e6c43fb8855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3d34fcc26c39c030357be14c9e44204') in 0.0151823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.316594 seconds.
+  path: Assets/Tile set/My block out palette.prefab
+  artifactKey: Guid(4b69ffc5f5646ad48ab5b601aea5b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile set/My block out palette.prefab using Guid(4b69ffc5f5646ad48ab5b601aea5b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a911c77a7ee4f9d24759e2934da13bf6') in 0.0422633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 2765.726447 seconds.
+  path: Assets/Dungen.prefab
+  artifactKey: Guid(e3b146f098f22da498a202e47fb09ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungen.prefab using Guid(e3b146f098f22da498a202e47fb09ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18385a82bc32c1f36fd2aea663da11a4') in 0.2311708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
